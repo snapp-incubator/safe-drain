@@ -18,40 +18,10 @@ jobs:
             goarch: amd64
           - goos: darwin
             goarch: arm64
-
-          - goos: android
-            goarch: arm64
-
           - goos: linux
             goarch: amd64
           - goos: linux
             goarch: arm64
-          - goos: linux
-            goarch: arm
-            goarm: 7
-          - goos: linux
-            goarch: riscv64
-          - goos: linux
-            goarch: mips64
-          - goos: linux
-            goarch: mips64le
-          - goos: linux
-            goarch: mips
-          - goos: linux
-            goarch: mipsle
-          - goos: linux
-            goarch: mips64
-            gomips: softfloat
-          - goos: linux
-            goarch: mips64le
-            gomips: softfloat
-          - goos: linux
-            goarch: mips
-            gomips: softfloat
-          - goos: linux
-            goarch: mipsle
-            gomips: softfloat
-
           - goos: windows
             goarch: amd64
           - goos: windows

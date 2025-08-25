@@ -47,6 +47,12 @@ Drain a node named worker-1 using a custom kubeconfig:
 safe-drain -kubeconfig ~/.kube/my-cluster.yaml -node worker-1
 ```
 
+## Release Process
+
+1. Create a new tag on the main branch
+2. Create a new release on GitHub with the tag
+3. GitHub Actions will automatically build and publish the binaries
+
 ## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests to improve functionality.
